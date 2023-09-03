@@ -1,0 +1,58 @@
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container for the list and input */
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for the list items */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 8px 0;  /* Remove auto margin to align to the left */
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;  /* Set a maximum width for list items */
+}
+
+/* Style for the delete button */
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3333;
+}
+
+/* Style for items marked as done */
+.done {
+    text-decoration: line-through;
+}
